@@ -1,7 +1,29 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
 li {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: aliceblue;
+}
+
+body {
+
+    background: url(../img/bg-desktop.jpg) no-repeat top center/cover;
+    height: 100vh;
+}
+
+p, footer {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
